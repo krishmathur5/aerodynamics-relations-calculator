@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerodynamics Calculator</title>
+    <style>
+        /* Add your styles here */
+    </style>
+</head>
+<body>
+    <h1>Select Aerodynamics Calculator</h1>
+    <form action="/" method="POST">
+        <select id="calculatorType" onchange="redirectToCalculator()">
+            <option value="">--Select Calculator--</option>
+            <option value="isentropic">Isentropic Flow Relations</option>
+            <option value="normal_shock">Normal Shock Relations</option>
+            <option value="oblique_shock">Oblique Shock Relations</option>
+        </select>
+    </form>
+    <script>
+        function redirectToCalculator() {
+            var calcType = document.getElementById("calculatorType").value;
+            if (calcType) {
+                window.location.href = '/' + calcType;
+            }
+        }
+    </script>
+</body>
+</html>
