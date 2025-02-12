@@ -1,5 +1,4 @@
-# Aerospace
-Aerodynamics Calculator 
+#Aerodynamics Relations Calculator 
 
 An aerodynamics flow values calculator which calculates values such as Isentropic flow, Normal shock and Oblique Shock relations. Given below is description about the flows and what values are taken as inputs.
 
@@ -18,7 +17,7 @@ Delta (δ): the deflection angle (for oblique shock relations)
 
 and the formulas used for the calculations:
 
-1)Isentropic Flow Relations
+\n1)Isentropic Flow Relations
 
 M = Mach number
 T/T0 = temperature ratio
@@ -26,7 +25,7 @@ p/p0 = pressure ratio
 ρ/ρ0 = density ratio
 A/A* = area ratio
 
-2)Normal Shock Relations
+\n2)Normal Shock Relations
 
 M1 = upstream Mach number
 M2 = downstream Mach number
@@ -36,7 +35,7 @@ p2/p1 = pressure ratio across the shock
 T02/T01 = stagnation temperature ratio across the shock
 p02/p01 = stagnation pressure ratio across the shock
 
-3)Oblique Shock Relations
+\n3)Oblique Shock Relations
 
 M1 = upstream Mach number
 M2 = downstream Mach number
