@@ -1,4 +1,4 @@
-#Aerodynamics Relations Calculator 
+Aerodynamics Relations Calculator 
 
 An aerodynamics flow values calculator which calculates values such as Isentropic flow, Normal shock and Oblique Shock relations. Given below is description about the flows and what values are taken as inputs.
 
