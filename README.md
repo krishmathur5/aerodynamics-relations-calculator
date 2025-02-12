@@ -17,7 +17,7 @@ Delta (δ): the deflection angle (for oblique shock relations)
 
 and the formulas used for the calculations:
 
-\n1)Isentropic Flow Relations
+1)Isentropic Flow Relations
 
 M = Mach number
 T/T0 = temperature ratio
@@ -25,7 +25,7 @@ p/p0 = pressure ratio
 ρ/ρ0 = density ratio
 A/A* = area ratio
 
-\n2)Normal Shock Relations
+2)Normal Shock Relations
 
 M1 = upstream Mach number
 M2 = downstream Mach number
@@ -35,7 +35,7 @@ p2/p1 = pressure ratio across the shock
 T02/T01 = stagnation temperature ratio across the shock
 p02/p01 = stagnation pressure ratio across the shock
 
-\n3)Oblique Shock Relations
+3)Oblique Shock Relations
 
 M1 = upstream Mach number
 M2 = downstream Mach number
